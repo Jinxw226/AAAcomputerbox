@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"b69a3c76333470b4","type":"text","text":"可视化","x":-115,"y":-180,"width":250,"height":50},
+		{"id":"9cfc585e516d974f","type":"file","file":"obsidian使用/obsidian使用指南.md","x":-220,"y":-40,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"f9d06831fd81d822","fromNode":"9cfc585e516d974f","fromSide":"top","toNode":"b69a3c76333470b4","toSide":"bottom"}
+	]
+}
