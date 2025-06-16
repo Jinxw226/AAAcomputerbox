@@ -181,8 +181,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e97d97ea58003068",
+  "active": "f6514211252cc746",
   "lastOpenFiles": [
+    "asset/py字串两种取值顺序.png",
     "后端/语言库/Python/py数据类型.md",
     "后端/语言库/Python",
     "后端/tips.md",
@@ -221,7 +222,6 @@
     "后端/Maven/Maven.md",
     "后端/Maven/安装Maven.md",
     "后端/Maven/Maven坐标.md",
-    "后端/Maven/导入Maven项目.md",
     "后端/http",
     "后端/spring/springboot",
     "后端/spring",
