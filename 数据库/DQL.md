@@ -36,5 +36,3 @@ select 字段1 [ as 别名1 ] , 字段2 [ as 别名2 ]  from  表名;
 -- 去除重复记录
 select distinct 字段列表 from  表名;
 ```
-
-

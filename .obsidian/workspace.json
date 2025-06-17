@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 586.5
+    "width": 240.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f6514211252cc746",
+  "active": "8681594a28c1c41a",
   "lastOpenFiles": [
     "数据库/DDL.md",
     "数据库/DQL.md",
