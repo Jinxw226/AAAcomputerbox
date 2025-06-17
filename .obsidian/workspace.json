@@ -1,38 +1,34 @@
 {
   "main": {
-    "id": "e4c574d953401f3b",
+    "id": "5c639d3797186763",
     "type": "split",
     "children": [
       {
-        "id": "40cdb91b1dfcf1c0",
+        "id": "e5f3259924cb2db2",
         "type": "tabs",
         "children": [
           {
-            "id": "b6faf8ab68e428d7",
+            "id": "e1fedd682301aa90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/DQL.md",
+                "file": "后端/数据分析/Anaconda/python量化交易.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DQL"
+              "title": "python量化交易"
             }
           },
           {
-            "id": "3701b0e708e3805f",
+            "id": "d123be038389ca86",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数据库/DQL.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "DQL"
+              "title": "新标签页"
             }
           }
         ]
@@ -41,28 +37,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5175cb9daf96cf40",
+    "id": "9e3ebf7b2267b89d",
     "type": "split",
     "children": [
       {
-        "id": "9efe0dcfa536d95a",
+        "id": "40e03623ddab738d",
         "type": "tabs",
         "children": [
           {
-            "id": "f6514211252cc746",
+            "id": "217675e66e79e5fc",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
-                "autoReveal": true
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
             }
           },
           {
-            "id": "22064f5584734a09",
+            "id": "c33261b94cd2d898",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +75,7 @@
             }
           },
           {
-            "id": "065b1014cb11d72f",
+            "id": "30848b4933117c51",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,57 +88,57 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5110321044922
+    "width": 300
   },
   "right": {
-    "id": "1ca6ec134f9affb7",
+    "id": "b26645fba7631ce2",
     "type": "split",
     "children": [
       {
-        "id": "60b169c8edb90901",
+        "id": "695c189ef64b21be",
         "type": "tabs",
         "children": [
           {
-            "id": "c7a316c8b3bf3d6b",
+            "id": "f9d44f2ef5fb6715",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/DQL.md",
+                "file": "后端/数据分析/Anaconda/python量化交易.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "DQL 的反向链接列表"
+              "title": "python量化交易 的反向链接列表"
             }
           },
           {
-            "id": "8539e38e32a1df55",
+            "id": "bdcf4c055b954ffc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/js/Axios.md",
-                "linksCollapsed": true,
+                "file": "后端/数据分析/Anaconda/python量化交易.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Axios 的出链列表"
+              "title": "python量化交易 的出链列表"
             }
           },
           {
-            "id": "8ccb5cc10f90a00e",
+            "id": "9e3be2e807c17da8",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -151,22 +147,22 @@
             }
           },
           {
-            "id": "d60a374f00f54786",
+            "id": "c5241cc3b69a41f1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/js/Axios.md",
+                "file": "后端/数据分析/Anaconda/python量化交易.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Axios 的大纲"
+              "title": "python量化交易 的大纲"
             }
           },
           {
-            "id": "8681594a28c1c41a",
+            "id": "34e6de09ba5a1a17",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -180,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 587.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,54 +191,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8681594a28c1c41a",
+  "active": "e1fedd682301aa90",
   "lastOpenFiles": [
-    "数据库/DDL.md",
-    "数据库/DQL.md",
-    "数据库/DML.md",
-    "数据库/mysql数据模型  四大类sql语句.md",
-    "数据库/数据库介绍.md",
-    "数据库/mysql安装教程.md",
-    "数据库/mysql数据类型.md",
-    "asset/数据库数据类型之日期时间类型.png",
-    "asset/数据库数据类型之字符串类型.png",
-    "asset/数据库数据类型之数值类型.png",
-    "asset/datagrip图标解析.png",
-    "asset/数据库常见的5种约束.png",
-    "数据库/datagrip安装教程.md",
-    "asset/目前主流的数据库图形化管理工具.png",
-    "asset/删除数据库.png",
-    "Pasted image 20250606173507.png",
-    "asset/使用数据库.png",
-    "asset/创建数据库2.png",
-    "后端/spring/springboot/IOC.md",
-    "数据库",
-    "后端/spring/springboot/DI.md",
-    "后端/spring/springboot/分层耦合-三层架构.md",
-    "后端/spring/springboot/spring入门程序剖析.md",
-    "后端/spring/常用注解.md",
-    "后端/http/http和https的区别.md",
-    "IOC详解.md",
-    "web开发/web基础.md",
-    "后端/http/HTTP协议-响应协议.md",
-    "后端/http/HTTP协议-请求协议.md",
-    "后端/http/HTTP协议.md",
-    "后端/Java/substring().md",
-    "后端/Maven/Maven.md",
-    "后端/Maven/安装Maven.md",
-    "后端/Maven/Maven坐标.md",
-    "后端/Maven/导入Maven项目.md",
-    "后端/Maven/Maven依赖管理.md",
-    "后端/Maven/Maven的生命周期.md",
-    "后端/http",
-    "后端/spring/springboot",
-    "后端/spring",
-    "后端/测试",
-    "后端/Java",
-    "后端/Maven",
-    "课程资源",
-    "后端",
-    "前端/vue",
-    "obsidian使用/白板.canvas"
+    "conflict-files-obsidian-git.md",
+    "后端/数据分析/Anaconda/python量化交易.md",
+    "后端/数据分析/Anaconda/anaconda安装教程.md",
+    "后端/数据分析/Anaconda/anaconda.md"
   ]
 }
