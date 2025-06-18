@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fa9893f158d66e51",
+        "id": "48914771b95e7ead",
         "type": "tabs",
         "children": [
           {
-            "id": "61e3b76611100452",
+            "id": "9d04f7db3c51335a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -162,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 328.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,10 +179,11 @@
   },
   "active": "8681594a28c1c41a",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "NumPy 数组中ndarry对象属性.md",
     "后端/数据分析/Numpy/Ndarray对象.md",
     "后端/数据分析/Numpy/NumPy从数值范围创建数组(arange).md",
     "asset/linspace实例结果.png",
-    "NumPy 数组中ndarry对象属性.md",
     "后端/数据分析/Numpy/NumPy 数据类型 dtype对象.md",
     "未命名",
     "asset/ndarray内部结构.png",
