@@ -4,109 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "be5b0489862fccc8",
+        "id": "fa9893f158d66e51",
         "type": "tabs",
         "children": [
           {
-            "id": "a11e9fee88604ea6",
+            "id": "61e3b76611100452",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "后端/数据分析/Anaconda/anaconda.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "anaconda"
-            }
-          },
-          {
-            "id": "c314801aeaf35758",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "后端/数据分析/Numpy/NumPy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NumPy"
-            }
-          },
-          {
-            "id": "ab1cdd229a25ee75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "后端/数据分析/Numpy/NumPy安装.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NumPy安装"
-            }
-          },
-          {
-            "id": "ee997389871c142a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "后端/数据分析/Numpy/Ndarray对象.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ndarray对象"
-            }
-          },
-          {
-            "id": "bf1aba0a68af65a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "后端/数据分析/Numpy/NumPy 数据类型 dtype对象.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NumPy 数据类型 dtype对象"
-            }
-          },
-          {
-            "id": "268ef8aee92bed37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NumPy 数组中ndarry对象属性.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NumPy 数组中ndarry对象属性"
-            }
-          },
-          {
-            "id": "a2cb8bca168ddb47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NumPy 数组中ndarry对象属性.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NumPy 数组中ndarry对象属性"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -266,7 +177,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f6514211252cc746",
+  "active": "8681594a28c1c41a",
   "lastOpenFiles": [
     "后端/数据分析/Numpy/Ndarray对象.md",
     "后端/数据分析/Numpy/NumPy从数值范围创建数组(arange).md",
