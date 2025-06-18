@@ -11,13 +11,102 @@
             "id": "a11e9fee88604ea6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "后端/数据分析/Anaconda/anaconda.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "anaconda"
+            }
+          },
+          {
+            "id": "c314801aeaf35758",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "后端/数据分析/Numpy/NumPy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NumPy"
+            }
+          },
+          {
+            "id": "ab1cdd229a25ee75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "后端/数据分析/Numpy/NumPy安装.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NumPy安装"
+            }
+          },
+          {
+            "id": "ee997389871c142a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "后端/数据分析/Numpy/Ndarray对象.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ndarray对象"
+            }
+          },
+          {
+            "id": "bf1aba0a68af65a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "后端/数据分析/Numpy/NumPy 数据类型 dtype对象.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NumPy 数据类型 dtype对象"
+            }
+          },
+          {
+            "id": "268ef8aee92bed37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NumPy 数组中ndarry对象属性.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NumPy 数组中ndarry对象属性"
+            }
+          },
+          {
+            "id": "a2cb8bca168ddb47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NumPy 数组中ndarry对象属性.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NumPy 数组中ndarry对象属性"
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -162,7 +251,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 822.4000000000001
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,12 +266,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8681594a28c1c41a",
+  "active": "f6514211252cc746",
   "lastOpenFiles": [
+    "后端/数据分析/Numpy/Ndarray对象.md",
+    "后端/数据分析/Numpy/NumPy从数值范围创建数组(arange).md",
+    "asset/linspace实例结果.png",
+    "NumPy 数组中ndarry对象属性.md",
+    "后端/数据分析/Numpy/NumPy 数据类型 dtype对象.md",
+    "未命名",
+    "asset/ndarray内部结构.png",
+    "后端/数据分析/Numpy/NumPy安装.md",
+    "后端/数据分析/Numpy/NumPy.md",
+    "后端/数据分析/Anaconda/anaconda.md",
     "asset/anaconda环境变量.png",
     "asset/检验anaconda安装.png",
     "asset/anaconda安装配置环境.png",
-    "后端/数据分析/Anaconda/anaconda.md",
     "后端/数据分析/Anaconda/anaconda安装教程.md",
     "后端/数据分析/Anaconda/python量化交易.md",
     "后端/语言库/Python/py数据类型.md",
@@ -204,10 +302,7 @@
     "asset/数据库数据类型之字符串类型.png",
     "asset/数据库数据类型之数值类型.png",
     "asset/datagrip图标解析.png",
-    "asset/数据库常见的5种约束.png",
     "数据库/datagrip安装教程.md",
-    "asset/目前主流的数据库图形化管理工具.png",
-    "asset/删除数据库.png",
     "后端/spring/springboot/IOC.md",
     "数据库",
     "后端/spring/springboot/DI.md",
@@ -215,16 +310,9 @@
     "后端/spring/springboot/spring入门程序剖析.md",
     "后端/spring/常用注解.md",
     "后端/http/http和https的区别.md",
-    "IOC详解.md",
-    "web开发/web基础.md",
-    "后端/http/HTTP协议-响应协议.md",
-    "后端/http/HTTP协议-请求协议.md",
-    "后端/http/HTTP协议.md",
-    "后端/语言库/Java/substring().md",
     "后端/http",
     "后端/spring/springboot",
     "后端/spring",
-    "后端/测试",
     "obsidian使用/白板.canvas"
   ]
 }
