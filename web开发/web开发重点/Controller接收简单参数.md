@@ -1,5 +1,7 @@
+#RequestParam 
+
+如：/depts?id=1
 - **方案一：通过原始的** **`HttpServletRequest`** **对象获取请求参数**
-    
 
 ```Java
 /**
@@ -55,3 +57,6 @@ public Result delete(Integer id){
 ```
 
 对于以上的这三种方案呢，我们==**推荐第三种方案**==。
+
+给参数设置默认值：
+`@RequestParam(defaultValue = "1")`
