@@ -41,132 +41,106 @@
 	把tasks.json文件配置如下：
 ```json
 {
-  "tasks": [
-    {
-      "label": "gcc build active file",
-      "type": "shell",
-      "command": "gcc",
-      "args": [
-        "-fdiagnostics-color=always",
-        "-g",
-        "${file}",
-        "-o",
-        "${fileDirname}\\${fileBasenameNoExtension}.exe"
-      ],
-      "group": "build",
-      "problemMatcher": [
-        "$gcc"
-      ]
-    },
-    {
-      "label": "g++ build active file",
-      "type": "shell",
-      "command": "g++",
-      "args": [
-        "-fdiagnostics-color=always",
-        "-g",
-        "-std=c++20",
-        "${file}",
-        "-o",
-        "${fileDirname}\\${fileBasenameNoExtension}.exe"
-      ],
-      "group": "build",
-      "problemMatcher": [
-        "$gcc"
-      ]
-    },
-    {
-      "type": "cppbuild",
-      "label": "C/C++: g++.exe 生成活动文件",
-      "command": "D:\\msys64\\ucrt64\\bin\\g++.exe",
-      "args": [
-        "-fdiagnostics-color=always",
-        "-g",
-        "${file}",
-        "-o",
-        "${fileDirname}\\${fileBasenameNoExtension}.exe"
-      ],
-      "options": {
-        "cwd": "${fileDirname}"
-      },
-      "problemMatcher": [
-        "$gcc"
-      ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "detail": "调试器生成的任务。"
-    }
-  ],
-  "version": "2.0.0"
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "C: gcc.exe 编译活动文件",
+      "type": "shell",
+      "command": "D:/msys64/ucrt64/bin/gcc.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.exe",
+        "-Wall",
+        "-std=c11",
+        "-mconsole"
+      ],
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "C++: g++.exe 编译活动文件",
+      "type": "shell",
+      "command": "D:/msys64/ucrt64/bin/g++.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.exe",
+        "-Wall",
+        "-std=c++17",
+        "-mconsole"
+      ],
+      "group": "build",
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "type": "cppbuild",
+      "label": "C/C++: g++.exe 生成活动文件",
+      "command": "D:\\msys64\\ucrt64\\bin\\g++.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "调试器生成的任务。"
+    }
+  ]
 }
 ```
 
 将launch.json文件配置如下：
 ```json
 {
-  // 使用 IntelliSense 了解相关属性。
-  // 悬停以查看现有属性的描述。
-  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "C Debug (GDB)",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "environment": [],
-      "externalConsole": false,
-      "MIMode": "gdb",
-      "miDebuggerPath": "D:\\msys64\\ucrt64\\bin\\gdb.exe", // 使用环境变量路径
-      "preLaunchTask": "gcc build active file",
-      "setupCommands": [
-        {
-          "description": "启用整齐打印",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        },
-        {
-          "description": "反汇编风格设置为Intel",
-          "text": "-gdb-set disassembly-flavor intel",
-          "ignoreFailures": true
-        }
-      ]
-    },
-    {
-      "name": "C++ Debug (GDB)",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "environment": [],
-      "externalConsole": false,
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb.exe",
-      "preLaunchTask": "g++ build active file",
-      "setupCommands": [
-        {
-          "description": "启用整齐打印",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        },
-        {
-          "description": "反汇编风格设置为Intel",
-          "text": "-gdb-set disassembly-flavor intel",
-          "ignoreFailures": true
-        }
-      ]
-    }
-  ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C++: GDB 调试",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,  // 改为true以显示独立控制台
+      "MIMode": "gdb",
+      "miDebuggerPath": "D:/msys64/ucrt64/bin/gdb.exe",
+      "setupCommands": [
+        {
+          "description": "为 gdb 启用整齐打印",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C++: g++.exe 编译活动文件"  // 确保与tasks.json一致
+    }
+  ]
 }
 ```
 
 
 > [!NOTE] 注意
 > 配置文件中的环境变量需要改成自己系统中的！！！
+
+调试选择
+![[Pasted image 20250813175308.png]]
