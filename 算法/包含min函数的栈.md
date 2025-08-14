@@ -2,7 +2,7 @@
 
 时间复杂度O(1)
 
-![[Pasted image 20250814171804.png]]
+![[包含min函数的栈.png]]
 
 ```cpp
 #include<stack>
